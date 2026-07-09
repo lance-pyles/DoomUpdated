@@ -1,0 +1,8 @@
+version "4.14"
+
+#include "zscript/compass.zs"
+#include "zscript/goldPistol.zs"
+
+#include "zscript/jetpack/jetpackItem.zs"
+
+#include "zscript/eventHandlers.zs"

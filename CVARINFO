@@ -1,0 +1,9 @@
+// Creates a client-side toggle switch (default is true/on)
+user bool draw_hud_compass = false;
+user bool draw_automap_compass = false;
+
+user float jetpack_accel_x = 0.15;
+user float jetpack_accel_y = 0.15;
+user float jetpack_accel_z = 0.55;
+
+user bool jetpack_recharges_on_ground = false;

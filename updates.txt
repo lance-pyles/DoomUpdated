@@ -1,0 +1,32 @@
+HUD:
+
+Compass (in progress)
+
+Weapons:
+
+Golden Gun (in progress)
+
+Gameplay:
+
+Stamina (TBD)
+Weapons\items have mass (TBD)
+Mass slows you down (TBD)
+Mass impacts jetpack (TBD)
+add bob to jetpack hover
+add fuel pickup to jetpack
+jetpack options - either reload with items or on landing (in progress)
+jetpack accel options (in progress)
+Fun:
+
+Paintball mode
+
+Key:
+
+TBD - to be done
+
+
+rough thougts:
+
+alt modes
+mode and alt mode in HUD
+infinite ammo option

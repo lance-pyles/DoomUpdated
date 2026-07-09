@@ -1,0 +1,6 @@
+GameInfo
+{
+    AddEventHandlers = "AutomapCompassHandler"
+	AddEventHandlers = "HUD_CompassHandler"
+	AddEventHandlers = "JetpackHUD"
+}

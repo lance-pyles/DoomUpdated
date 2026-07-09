@@ -1,0 +1,3 @@
+weaponsection StandardWeapons
+setslot 2 BrutalPistol BrutalSMG ClassicPistol ClassicSMG Revolver2 Revolver MP40 Pistol GoldPistol
+setslot 4 Machinegun Rifle MiniGun ClassicChaingun HitlersBuzzsaw Chaingun GoldChaingun

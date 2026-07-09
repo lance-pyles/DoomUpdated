@@ -1,0 +1,41 @@
+// Hooks into GZDoom's primary options screen list
+AddOptionMenu "OptionsMenu"
+{
+    Submenu "Doom Updated Options", "DoomUpdatedOptions"
+}
+
+OptionMenu "DoomUpdatedOptions"
+{
+	Title "Doom Updated Options"
+
+    Submenu "Compass Options", "CompassOptions"
+	Submenu "Jetpack Options", "JetpackOptions"
+	
+}
+
+
+// Builds your custom options menu layout page
+OptionMenu "CompassOptions"
+{
+    Title "Compass Options"
+    
+    // Links your label directly to the custom variable we built in CVARINFO
+    Option "Enable HUD Compass", "draw_hud_compass", "OnOff"
+	Option "Enable Automap Compass", "draw_automap_compass", "OnOff"
+}
+
+OptionMenu "JetpackOptions"
+{
+    Title "Jetpack Settings"
+
+
+    Slider "X Acceleration","jetpack_accel_x",0,2,0.01,2
+	 Slider "Y Acceleration","jetpack_accel_y",0,2,0.01,2
+	  Slider "Z Acceleration","jetpack_accel_z",0,2,0.01,2
+	  Option "Jetpack Recharges On Ground","jetpack_recharges_on_ground", "OnOff"
+
+
+    
+
+
+}
